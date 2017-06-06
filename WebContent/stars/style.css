@@ -1,0 +1,19 @@
+/* ---------- Some general styles ---------- */
+@font-face{ 
+font-family: 'WebSymbolsRegular';
+src: url('fonts/websymbols-regular-webfont.eot');
+src: url('fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('fonts/websymbols-regular-webfont.woff') format('woff'),
+     url('fonts/websymbols-regular-webfont.ttf') format('truetype'),
+     url('fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+}
+/* ---------- Lists ---------- */
+.rating-w-fonts li {
+	font: 18px/36px 'WebSymbolsRegular', sans-serif;
+	display: inline;
+
+	color: #202124;
+	text-shadow: 1px 1px 0px #323439;
+	
+}
+	.rating-w-fonts li.rated, .rating-w-fonts li:hover { color: #FFFF00; }
